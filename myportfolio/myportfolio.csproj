@@ -66,8 +66,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CSS\bootstrap.min.css" />
+    <Content Include="CSS\normalize.css" />
+    <Content Include="Image\slide1.png" />
+    <Content Include="Image\slide2.png" />
+    <Content Include="Image\slide3.png" />
     <Content Include="index.html" />
     <Content Include="JS\bootstrap.min.js" />
+    <Content Include="JS\jquery-1.11.1.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
