@@ -70,6 +70,9 @@
     <Content Include="CSS\bootstrap.min.css" />
     <Content Include="CSS\index.css" />
     <Content Include="CSS\normalize.css" />
+    <Content Include="Image\logo.ico" />
+    <Content Include="Image\logo.jpg" />
+    <Content Include="Image\logo.png" />
     <Content Include="Image\slide1.png" />
     <Content Include="Image\slide2.png" />
     <Content Include="Image\slide3.png" />
