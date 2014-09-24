@@ -1,9 +1,93 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
-    <title></title>
+    <meta charset="utf-8" />
+    <title>Zifeng Xu</title>
+    <link href="CSS/index.css" rel="stylesheet" />
+    <link href="CSS/normalize.css" rel="stylesheet" />
+    <link href="CSS/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
+    <!--navigation bar-->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">ZiFeng</a>
+            </div>
 
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutme.html">About Me</a></li>
+                    <li class="active"><a href="projects.html">Projects</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://github.com/ZifengX" target="_blank">GitHub</a></li>
+                    <li><a href="contactme.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--welcome part-->
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Welcome, Come to See Me!</h1>
+            <p>Tagline</p>
+            <p>mission statement</p>
+            <p>
+                <a class="btn btn-primary btn-lg" role="button" href="">
+                    View More
+                </a>
+            </p>
+        </div>
+    </div>
+    <!--Slider-->
+    <div class="row">
+        <div class="col-lg-8 col-md-8 col-sm-8">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <!--Images -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="Image/slide1.png" alt="First slide" />
+                    </div>
+                    <div class="item">
+                        <img src="Image/slide2.png" alt="Second slide" />
+                    </div>
+                    <div class="item">
+                        <img src="Image/slide3.png" alt="Third slide" />
+                    </div>
+                </div>
+                <!-- Carousel Arrow-->
+                <a class="carousel-control left" href="#myCarousel"
+                   data-slide="prev">&lsaquo;</a>
+                <a class="carousel-control right" href="#myCarousel"
+                   data-slide="next">&rsaquo;</a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+            <p>sdfasdfasdfasdfasdf</p>
+        </div>
+    </div>
+    <!--footer-->
+    <div id="footer" class="footer">
+        <p>Copyright © 2014 Come2c.me Corporation. All rights reserved.</p>
+    </div>
+
+    <!--JavaScript-->
+    <script src="JS/jquery-1.11.1.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
 </body>
 </html>
