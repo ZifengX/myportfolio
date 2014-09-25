@@ -1,4 +1,4 @@
-/* 图片轮播 */
+
 $(function ($) {
 	var that = this,
 		$picScrollDiv = $('#picScrollWrap'),
@@ -27,26 +27,11 @@ $(function ($) {
 		n = n >=(nLen - 1) ? 0 : ++n;
 		$handlerSpan.eq(n).trigger('click');
 	}
-	t = setInterval(that.showAuto, 3000);
+	t = setInterval(that.showAuto, 1500);
 	$picScrollLi.hover(function(){clearInterval(t)}, function(){t = setInterval(that.showAuto, 3000);});
 	$handlerSpan.hover(function(){clearInterval(t)}, function(){t = setInterval(that.showAuto, 3000);});
 });
 
-/*Validate Input*/
-function validateForm() {
-   var x = document.getElementById("autoPlace").value;
-   var y = document.getElementById("data").value;
-   
-  if (x==null || x==""){		
-		document.getElementById("area").innerHTML = "Area must be filled out";
-        return false;
-	}
-	
-  if (y==""){
-		document.getElementById("area").innerHTML = "Please upload data file";
-        return false;
-	}
-}
 
 
 

@@ -66,10 +66,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="aboutme.html" />
-    <Content Include="barrietransit.html" />
+    <Content Include="projects.html" />
     <Content Include="contactme.html" />
     <Content Include="CSS\bootstrap.min.css" />
-    <Content Include="CSS\index.css" />
     <Content Include="CSS\normalize.css" />
     <Content Include="CSS\public.css" />
     <Content Include="Image\Email-icon.png" />
@@ -96,7 +95,6 @@
     <Content Include="JS\bootstrap.min.js" />
     <Content Include="JS\index.js" />
     <Content Include="JS\jquery-1.11.1.js" />
-    <Content Include="projects.html" />
     <Content Include="services.html" />
     <Content Include="Web.config" />
   </ItemGroup>

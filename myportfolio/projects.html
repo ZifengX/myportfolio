@@ -1,13 +1,31 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8" />
-    <title>Zifeng Xu</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="en-us" />
+	<meta name="Author" content="www.mobiletransit.ca" />	
+	<meta name="keywords" content="Barrie Transit, Barrie, Bus, Transit"/>
+	<meta name="description" content="This is a functional transit mobile system for Barrie."/>	
+    <title>Barrie Transit</title>
+    <script src="JS/jquery-1.11.1.js"></script>
+	<script type='text/javascript' src='JS/index.js'></script>
     <link href="CSS/index.css" rel="stylesheet" />
-    <link href="CSS/normalize.css" rel="stylesheet" />
+    <link href="CSS/public.css" rel="stylesheet" type="text/css" />
     <link href="CSS/bootstrap.min.css" rel="stylesheet" />
-    <link rel="shortcut icon" type="image/x-icon" href="Image/logo.ico" media="screen">
+   	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" type="image/x-icon" href="Image/icon_lucency.ico" media="screen" />
+
+<!-- Facebook Like button-->   
+	<script>(function(d, s, id) {
+  		var js, fjs = d.getElementsByTagName(s)[0];
+  		if (d.getElementById(id)) return;
+  		js = d.createElement(s); js.id = id;
+  		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+    </script>
 </head>
+
 <body>
     <!--navigation bar-->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -37,58 +55,27 @@
             </div>
         </div>
     </nav>
-    <!--welcome part-->
-    <div class="jumbotron">
-        <div class="container">
-            <h1>Welcome, Come to See Me!</h1>
-            <p>Tagline</p>
-            <p>mission statement</p>
-            <p>
-                <a class="btn btn-primary btn-lg" role="button" href="">
-                    View More
-                </a>
-            </p>
-        </div>
-    </div>
-    <!--Slider-->
-    <div class="row">
-        <div class="col-lg-8 col-md-8 col-sm-8">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-                <!--Images -->
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="Image/slide1.png" alt="First slide" />
-                    </div>
-                    <div class="item">
-                        <img src="Image/slide2.png" alt="Second slide" />
-                    </div>
-                    <div class="item">
-                        <img src="Image/slide3.png" alt="Third slide" />
-                    </div>
-                </div>
-                <!-- Carousel Arrow-->
-                <a class="carousel-control left" href="#myCarousel"
-                   data-slide="prev">&lsaquo;</a>
-                <a class="carousel-control right" href="#myCarousel"
-                   data-slide="next">&rsaquo;</a>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-4">
-            <p>sdfasdfasdfasdfasdf</p>
-        </div>
-    </div>
+    
+	<div class="content">
+		<div id="picScrollWrap" class="pic_scroll_wrap clr">
+		<ul class="pic_scroll" id="picScroll">
+			<li style="background:url('Image/g_bj1.jpg') 0 0 repeat-x;"><img src="Image/g_1.jpg" class="img-responsive" alt="Barrie Transit" /></li>
+			<li style="background:url('Image/g_bj2.jpg') 0 0 repeat-x;"><img src="Image/g_2.jpg" class="img-responsive" alt="Barrie Transit" /></li>
+			<li style="background:url('Image/g_bj3.jpg') 0 0 repeat-x;"><img src="Image/g_3.jpg" class="img-responsive" alt="Barrie Transit" /></li>
+		</ul>
+		</div>
+        
+        <div class="de">
+			<div class="android_de">
+				<a class="btn_de" target="_blank" href="https://play.google.com/store/apps/details?id=red.bird.bus">&nbsp</a>
+			</div>
+		</div>
+	</div>
+    
     <!--footer-->
     <div id="footer" class="footer">
         <p>Copyright © 2014 Come2c.me Corporation. All rights reserved.</p>
     </div>
-
-    <!--JavaScript-->
-    <script src="JS/jquery-1.11.1.js"></script>
-    <script src="JS/bootstrap.min.js"></script>
+    
 </body>
 </html>
