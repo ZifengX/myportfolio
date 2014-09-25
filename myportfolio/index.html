@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <title>Zifeng Xu</title>
-    <link href="CSS/index.css" rel="stylesheet" />
     <link href="CSS/normalize.css" rel="stylesheet" />
+    <link href="CSS/index.css" rel="stylesheet" />
     <link href="CSS/bootstrap.min.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="Image/logo.ico" media="screen">
 </head>
@@ -58,7 +58,7 @@
     <!--Slider-->
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-md-8 col-sm-8">
+            <div id="carousel" class="col-lg-8 col-md-8 col-sm-8">
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -87,18 +87,13 @@
             <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="panel panel-primary">
                     <div class="panel-heading">
-                        <h3 class="panel-title">面板标题</h3>
+                        <h3 class="panel-title">Video</h3>
                     </div>
                     <div class="panel-body">
-                        这是一个基本的面板
-                        dfsdfs<br />
-                        dsfasdf<br />
-                        asdfasdf<br />
-                        asdfasdf
-                        asdfasdf
-                        asdf
-                        asdf
-                        asdf
+                        <iframe width="100%" height="229"
+                                src="//www.youtube.com/embed/IdR-rhyJfLI"
+                                frameborder="0">
+                        </iframe>
                     </div>
                 </div>
                 <div class="panel panel-success">
@@ -106,7 +101,26 @@
                         <h3 class="panel-title">Keep Connected</h3>
                     </div>
                     <div class="panel-body">
-                        这是一个基本的面板
+                        <div class="row">
+                            <div class="col-sm-2 col-xs-2">
+                                <a href="https://www.facebook.com/catcherzif" title="My Facebook"><img src="Image/Facebook-icon.png" alt="Zifeng Xu"/></a>
+                            </div>
+                            <div class="col-sm-2 col-xs-2">
+                                <a href=""><img src="Image/Twitter-icon.png" /></a>
+                            </div>                        
+                            <div class="col-sm-2 col-xs-2">
+                                <a href=""><img src="Image/Linkedin-icon.png" /></a>
+                            </div>
+                            <div class="col-sm-2 col-xs-2">
+                                <a href=""><img src="Image/Google-Plus-icon.png" /></a>
+                            </div>
+                            <div class="col-sm-2 col-xs-2">
+                                <a href=""><img src="Image/Email-icon.png" /></a>
+                            </div>                           
+                            <div class="col-sm-2 col-xs-2">
+                                <a href=""><img src="Image/Youtube-icon.png" /></a>
+                            </div>
+                        </div>                
                     </div>
                 </div>
             </div>
