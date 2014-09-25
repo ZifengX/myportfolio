@@ -85,8 +85,8 @@
     <Content Include="Image\icon_lucency.ico" />
     <Content Include="Image\Linkedin-icon.png" />
     <Content Include="Image\logo.ico" />
-    <Content Include="Image\logo.jpg" />
     <Content Include="Image\logo.png" />
+    <Content Include="Image\myphoto.jpg" />
     <Content Include="Image\slide1.png" />
     <Content Include="Image\slide2.png" />
     <Content Include="Image\slide3.png" />
