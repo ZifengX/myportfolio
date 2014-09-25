@@ -69,11 +69,17 @@
     <Content Include="css\projects.css" />
     <Content Include="images\android.jpg" />
     <Content Include="images\csharp.png" />
+    <Content Include="images\Email-icon-128.png" />
+    <Content Include="images\Facebook-icon-128.png" />
+    <Content Include="images\Google-Plus-icon-128.png" />
     <Content Include="images\head.png" />
+    <Content Include="images\Linkedin-icon-128.png" />
     <Content Include="images\pcrepair.gif" />
     <Content Include="images\responsive.jpg" />
+    <Content Include="images\Twitter-icon-128.png" />
     <Content Include="images\web.jpg" />
     <Content Include="images\website.jpg" />
+    <Content Include="images\Youtube-icon-128.png" />
     <Content Include="projects.html" />
     <Content Include="contactme.html" />
     <Content Include="css\bootstrap.min.css" />

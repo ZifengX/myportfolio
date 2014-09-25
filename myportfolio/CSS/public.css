@@ -134,7 +134,16 @@ table caption{
     width:200px;
     height:200px;
 }
-    
+   
+#contact{
+    margin-top:75px;
+    margin-bottom:20px;
+    text-align:center;
+} 
+
+#address{
+    margin-top:50px;
+}
 #footer{
     background-color:#eee;
     text-align:center;
