@@ -1,0 +1,237 @@
+@charset "UTF-8";
+/*
+ * @date    2014-07-01 14:45:15
+ */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,button,textarea,p,th,td{margin:0;padding:0;}
+body{font:12px/1.5 Verdana,Tahoma,Arial,simsun,sans-serif;}/* 中文宋体，英文Arial */
+h1,h2,h3,h4,h5,h6{*font-size:100%;font-weight:400;}
+img{border:0; vertical-align:middle;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+ol,ul,li{list-style:none outside;}
+table{border-collapse:collapse;border-spacing:0;}
+input,textarea,select,button{font-family:inherit;font-size:inherit;*font-size:100%;font-weight:inherit;resize:none;}
+button{cursor:pointer;}
+:focus{outline:0;}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+.clr{*zoom:1;}
+.clr:after{content:"";display:block;height:0;visibility:hidden;clear:both;}
+/* 
+整站通用样式。文字颜色
+*/
+body{font-size: 12px;
+color: #333;
+line-height: 16px;
+font-family: "Open Sans", Arial, Helvetica, Sans-Serif;}
+input{color:#555}
+a{color:#009190}
+
+.header{
+	height: 90px;
+	width: 920px;
+	margin:0 auto;
+}
+.header figure{
+	width: 220px;
+	height: 90px;
+	margin: 0;
+	float:left;	
+}
+.header figure figcaption{
+	font-family: 'Droid Serif', serif;
+	font-size: large;
+	text-align: center;	
+}
+.navigation {
+	width: 192px;
+	float: right;
+	margin-top: 66px;
+	font-size: large;
+
+}
+.navigation a{
+	margin-right: 20px;	
+}
+.navigation a:hover{
+	color:#0080FF;
+}
+.data{
+	padding-top:2.5%;
+	font-weight:bold;
+	color:white;
+	float:left;
+}
+#area{
+	margin-left: 10px;
+    color: rgb(255, 71, 0);	
+}
+table{
+	width: 355px;
+	margin-top: 10px;
+	text-align: center;
+}
+table a{
+	color:white;
+}
+.intro{
+	float: right;
+	padding-top: 2.5%;
+	color:white;
+	width:490px;	
+}
+th{
+	width:60%;
+}
+/*
+.easy_header {
+	  background-color: #FFFFFF;
+	  color: #555555;
+	  width: 100%;
+}
+.easy_header .c {
+	  height: 66px;
+	  margin: 0 auto;
+	  width: 920px;
+}*/
+.content {
+    background-color: #F5F5F5;
+    padding-bottom: 10px;
+    position: relative;
+    width: 100%;
+    height: 490px;
+}
+.content .pic_scroll_wrap {
+    height: 490px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.content .pic_scroll_wrap ul {
+	    height: 490px;
+	    position: relative;
+	    width: 100%;
+	    z-index: 1;
+}
+.content .pic_scroll_wrap ul li {
+	    height: 490px;
+	    position: absolute;
+	    width: 100%;
+}
+	
+.content .pic_scroll_wrap ul li img {
+    vertical-align: top;
+    display: block;
+    height: 490px;
+    margin: 0 auto;
+    width: 920px;
+}
+.content .pic_scroll_wrap div {
+    bottom: 13px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+}
+.content .pic_scroll_wrap div span {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    display: inline-block;
+    height: 12px;
+    margin: 0 7px;
+    overflow: hidden;
+    padding: 1px;
+    width: 12px;
+}
+.content .pic_scroll_wrap div .on {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+}
+.content .pic_scroll_wrap div span a {
+    background-color: #FFFFFF;
+    display: inline-block;
+    height: 12px;
+    overflow: hidden;
+    vertical-align: top;
+    width: 12px;
+}
+.content .pic_scroll_wrap div .on a {
+    background-color: #434343;
+}
+.content .pic_scroll_wrap {
+    height: 490px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+	}
+	
+.content .de {
+    margin: 0 auto;
+    position: relative;
+    width: 920px;
+    z-index: 3;
+}
+.content .de .android_de {
+    min-height: 70px;
+    position: absolute;
+    left: 0;
+    top: 300px;
+    width: 170px;
+}
+.content .de .android_de .btn_de {
+    height: 70px;
+    width: 170px;
+    display:inline-block;
+}
+
+
+.clr:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.easy_footer {
+	    background-color: #FFFFFF;
+	    color: #555555;
+	    width: 100%;
+}
+.easy_footer div a:hover{
+	color:#0080FF;
+}
+	
+.easy_footer .c {
+	    height: 66px;
+	    margin: 0 auto;
+	    width: 920px;
+}
+
+.table-bordered {
+border-radius: 0px 0px 0px 0px;
+}
+
+.table {
+background-color: #FFF;
+}
+table {
+display: table;
+
+}

@@ -66,13 +66,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="aboutme.html" />
+    <Content Include="barrietransit.html" />
     <Content Include="contactme.html" />
     <Content Include="CSS\bootstrap.min.css" />
     <Content Include="CSS\index.css" />
     <Content Include="CSS\normalize.css" />
+    <Content Include="CSS\public.css" />
     <Content Include="Image\Email-icon.png" />
     <Content Include="Image\Facebook-icon.png" />
     <Content Include="Image\Google-Plus-icon.png" />
+    <Content Include="Image\g_1.jpg" />
+    <Content Include="Image\g_2.jpg" />
+    <Content Include="Image\g_3.jpg" />
+    <Content Include="Image\g_bj1.jpg" />
+    <Content Include="Image\g_bj2.jpg" />
+    <Content Include="Image\g_bj3.jpg" />
+    <Content Include="Image\head.jpg" />
+    <Content Include="Image\icon_lucency.ico" />
     <Content Include="Image\Linkedin-icon.png" />
     <Content Include="Image\logo.ico" />
     <Content Include="Image\logo.jpg" />
@@ -84,6 +94,7 @@
     <Content Include="Image\Youtube-icon.png" />
     <Content Include="index.html" />
     <Content Include="JS\bootstrap.min.js" />
+    <Content Include="JS\index.js" />
     <Content Include="JS\jquery-1.11.1.js" />
     <Content Include="projects.html" />
     <Content Include="services.html" />
