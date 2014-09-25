@@ -67,7 +67,13 @@
   <ItemGroup>
     <Content Include="aboutme.html" />
     <Content Include="css\projects.css" />
+    <Content Include="images\android.jpg" />
+    <Content Include="images\csharp.png" />
     <Content Include="images\head.png" />
+    <Content Include="images\pcrepair.gif" />
+    <Content Include="images\responsive.jpg" />
+    <Content Include="images\web.jpg" />
+    <Content Include="images\website.jpg" />
     <Content Include="projects.html" />
     <Content Include="contactme.html" />
     <Content Include="css\bootstrap.min.css" />
