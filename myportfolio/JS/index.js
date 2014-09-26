@@ -1,4 +1,4 @@
-
+//slides
 $(function ($) {
 	var that = this,
 		$picScrollDiv = $('#picScrollWrap'),
@@ -27,6 +27,7 @@ $(function ($) {
 		n = n >=(nLen - 1) ? 0 : ++n;
 		$handlerSpan.eq(n).trigger('click');
 	}
+    //set slides change time
 	t = setInterval(that.showAuto, 1500);
 	$picScrollLi.hover(function(){clearInterval(t)}, function(){t = setInterval(that.showAuto, 3000);});
 	$handlerSpan.hover(function(){clearInterval(t)}, function(){t = setInterval(that.showAuto, 3000);});
